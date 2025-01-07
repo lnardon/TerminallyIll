@@ -35,6 +35,16 @@ tar xf lazygit.tar.gz lazygit
 install lazygit -D -t /usr/local/bin/
 echo $'✅ Lazygit installed!\n\n-------------------------\n'
 
+if [ -f "~/.bashrc" ] ; then
+    rm "~/.bashrc"
+fi
+
+if [ -f "~/.bash_aliases" ] ; then
+    rm "~/.bash_aliases"
+fi
+cp .bashrc ~/
+cp .bash_aliases ~/
+
 echo "📥 Installing Neofetch 📥"
 apt install neofetch -y
 echo $'✅ Neofetch installed!\n\n-------------------------\n'
