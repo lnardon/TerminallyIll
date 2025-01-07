@@ -1,5 +1,5 @@
 # Terminally Ill
-A script to get the terminal from 0 to great with the essential applications and themes. 
+A bash script to get the terminal from 0 to 100 with the essential applications and themes. 
 
 It installs:
 - Htop
@@ -19,5 +19,5 @@ You'll need the items below installed:
 ### How to install
 Clone the repository and run the `install.sh` file
 ```bash
-git clone https://www.github.com/lnardon/TerminallyIll && chmod +x install.sh &&./install.sh
+git clone https://www.github.com/lnardon/TerminallyIll && cd TerminallyIll && chmod +x install.sh &&./install.sh
 ```
