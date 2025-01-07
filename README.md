@@ -2,14 +2,14 @@
 A script to get the terminal from 0 to great with the essential applications and themes. 
 
 It installs:
-    - Htop
-    - Btop
-    - Neofetch
-    - Neovim
-    - Oh my bash
-    - fzf
-    - zoxide
-    - Lazygit
+- Htop
+- Btop
+- Neofetch
+- Neovim
+- Oh my bash
+- fzf
+- Zoxide
+- Lazygit
 
 ## Prerequisites
 You'll need the items below installed:
