@@ -12,4 +12,9 @@ echo "📥 Installing HTOP 📥"
 apt install htop -y
 echo $'✅ HTOP installed!\n\n-------------------------\n'
 
+echo "📥 Installing Neofetch 📥"
+apt install neofetch -y
+echo $'✅ Neofetch installed!\n\n-------------------------\n'
+neofetch
+
 echo $'🎊🎊🎊 Setup complete! 🎊🎊🎊\n'
