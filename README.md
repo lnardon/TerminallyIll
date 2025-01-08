@@ -10,6 +10,7 @@ It installs:
 - fzf
 - Zoxide
 - Lazygit
+- Tmux
 
 ## Prerequisites
 You'll need the items below installed:

@@ -8,6 +8,10 @@ echo "📥 Installing Neovim 📥"
 git clone https://github.com/lnardon/FlyMeToTheMoon.git && cd FlyMeToTheMoon && chmod +x ./my_way.sh && ./my_way.sh
 echo $'✅ Neovim installed and configured!\n\n-------------------------\n'
 
+echo "📥 Installing Tmux 📥"
+apt install tmux -y
+echo $'✅ Tmux installed!\n\n-------------------------\n'
+
 echo "📥 Installing BTOP 📥"
 apt install btop -y
 echo $'✅ BTOP installed!\n\n-------------------------\n'
