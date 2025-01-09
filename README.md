@@ -6,7 +6,7 @@ It installs:
 - [Btop](https://github.com/aristocratos/btop)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
 - [Neovim](https://github.com/neovim/neovim)
-- [Oh my bash](https://github.com/ohmybash/oh-my-bash)
+- [Starship](https://github.com/starship/starship)
 - [fzf](https://github.com/junegunn/fzf)
 - [Zoxide](https://github.com/ajeetdsouza/zoxide)
 - [Lazygit](https://github.com/jesseduffield/lazygit)
@@ -20,5 +20,12 @@ You'll need the items below installed:
 ### How to install
 Clone the repository and run the `install.sh` file
 ```bash
-git clone https://www.github.com/lnardon/TerminallyIll && cd TerminallyIll && chmod +x install.sh &&./install.sh
+git clone https://www.github.com/lnardon/TerminallyIll && cd TerminallyIll && chmod +x install.sh && source ./install.sh
 ```
+
+#### Before
+![Bash before script](./before.png)
+
+#### After
+![Bash after script](./after.png)
+
