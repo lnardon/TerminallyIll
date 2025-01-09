@@ -7,6 +7,10 @@ fi
 if [ -f "~/.bash_aliases" ] ; then
     rm "~/.bash_aliases"
 fi
+
+if [ ! -d "~/.config" ]; then
+    mkdir "~/.config"
+fi
 cp .bashrc ~/
 cp .bash_aliases ~/
 cp starship.toml ~/.config
