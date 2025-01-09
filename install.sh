@@ -1,4 +1,4 @@
-#!/bin/bash -i
+#!/bin/bash bash
 
 if [ -f "~/.bashrc" ] ; then
     rm "~/.bashrc"
@@ -8,8 +8,8 @@ if [ -f "~/.bash_aliases" ] ; then
     rm "~/.bash_aliases"
 fi
 
-if [ ! -d "~/.config" ]; then
-    mkdir "~/.config"
+if [ ! -d "~/.config/" ]; then
+    mkdir ~/.config/
 fi
 cp .bashrc ~/
 cp .bash_aliases ~/
