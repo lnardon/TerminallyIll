@@ -1,3 +1,5 @@
+PATH=$PATH:/usr/local/bin
+
 # Enable neovim installed from source
 export PATH="$PATH:/opt/nvim-linux64/bin"
 

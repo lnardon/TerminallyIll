@@ -21,7 +21,7 @@ apt install htop -y
 echo $'✅ HTOP installed!\n\n-------------------------\n'
 
 echo "📥 Installing Starship 📥"
-curl -sS https://starship.rs/install.sh | sh -y
+curl -sS https://starship.rs/install.sh | sh
 cp ./starship.toml ~/.config
 echo $'✅ Starship installed!\n\n-------------------------\n'
 
@@ -56,3 +56,5 @@ echo $'✅ Neofetch installed!\n\n-------------------------\n'
 neofetch
 
 echo $'🎊🎊🎊 Setup complete! 🎊🎊🎊\n'
+
+source ~/.bashrc
