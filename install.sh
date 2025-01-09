@@ -20,9 +20,10 @@ echo "📥 Installing HTOP 📥"
 apt install htop -y
 echo $'✅ HTOP installed!\n\n-------------------------\n'
 
-echo "📥 Installing Oh-my-bash 📥"
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" "" --unattended
-echo $'✅ Oh-my-bash installed!\n\n-------------------------\n'
+echo "📥 Installing Starship 📥"
+curl -sS https://starship.rs/install.sh | sh -y
+cp ./starship.toml ~/.config
+echo $'✅ Starship installed!\n\n-------------------------\n'
 
 echo "📥 Installing fzf 📥"
 apt install fzf -y
