@@ -2,7 +2,6 @@
 alias gs="git status"
 alias gaa="git add ."
 alias ga="git add"
-alias gcm="git commit"
 alias gcb="git checkout -b"
 alias gco="git checkout"
 alias gcl="git clone"

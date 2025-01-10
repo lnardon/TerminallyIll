@@ -8,3 +8,9 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# Extras
+gcm() {
+    git commit -m "$*"
+}
+
